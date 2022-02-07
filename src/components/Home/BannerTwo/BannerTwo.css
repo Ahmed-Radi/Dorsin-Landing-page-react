@@ -8,9 +8,8 @@
 }
 .banner-two__layout {
     padding: 100px 0;
-    background: -webkit-gradient(linear, left top, right top, from(#512da8), to(#711e72));
-    background: linear-gradient(to right, #512da8, #711e72);
-    opacity: 0.9;
+    background: -webkit-gradient(linear, left top, right top, from(#522da8e6), to(#711e72e6));
+    background: linear-gradient(to right, #522da8e6, #711e72e6);
     width: 100%;
     max-width: 100%;
     height: 100%;
