@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    font-family: "Poppins", sans-serif;
+}
+
+code {
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;*/
+    font-family: "Poppins", sans-serif;
+}
+ul {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif !important;
+}
+p {
+    font-size: 14.4px;
+    line-height: 24px;
+}
+
+.section-title-border {
+    width: 50px;
+    height: 2px;
+    margin: 16px auto 0 auto;
+    background-color: #fb3e3e;
+}
+
+.hover-effect {
+    /* width: fit-content;
+    margin: auto; */
+
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.hover-effect:hover {
+    transform: translateY(-1rem);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-effect-px {
+    /* width: fit-content;
+    margin: auto; */
+
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.hover-effect-px:hover {
+    transform: translateY(-5px);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}

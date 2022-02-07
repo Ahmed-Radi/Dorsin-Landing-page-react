@@ -1,0 +1,69 @@
+.banner {
+    background: url('../../../assets/img-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.banner__layout {
+    padding: 100px 0;
+    background: -webkit-gradient(linear, left top, right top, from(#522da8e6), to(#711e72e6));
+    background: linear-gradient(to right, #522da8e6, #711e72e6);
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.banner h2 {
+    font-weight: 600;
+}
+.banner h2,.banner p {color: #fff; width: 60%;margin: 0 auto;}
+.banner p {padding-top: 16px;color: rgba(255, 255, 255, 0.7);}
+.banner button {
+    margin: 30px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+    background: #ffffff;
+    outline: none !important;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+}
+.banner button:hover {
+    transform: translateY(-5px);
+}
+.image-wave {
+    width: 100%;
+    max-width: 100%;
+}
+.image-wave {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* vertical-align: middle; */
+}
+.image-wave img{width: 100%;}
+@media (max-width: 768px) {
+    .image-wave {
+        bottom: -2px;
+    }
+}
+@media (min-width: 425px) {
+    .image-wave {
+        bottom: -5px;
+    }
+}
+@media (min-width: 320px) {
+    .image-wave {
+        bottom: -6px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 994px) {
+    .banner h2, .banner p {
+        width: 94%;
+    }
+}

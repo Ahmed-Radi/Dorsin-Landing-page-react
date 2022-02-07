@@ -1,0 +1,22 @@
+nav .navbar {
+    position: fixed;
+    background: transparent !important;
+    margin: 0 auto;
+    width: 100%;
+}
+nav .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff !important;
+}
+nav a.nav-link {
+    text-transform: capitalize;
+    transition: color 0.4s;
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin: 10px 7px;
+}
+nav a.nav-link:hover {
+    transition: color 0.4s;
+    color: #ffffff !important;
+}

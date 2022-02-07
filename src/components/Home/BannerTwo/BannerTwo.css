@@ -1,0 +1,64 @@
+.banner-two {
+    background: url('../../../assets/img-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.banner-two__layout {
+    padding: 100px 0;
+    background: -webkit-gradient(linear, left top, right top, from(#512da8), to(#711e72));
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.banner-two h2 {
+    font-size: 36px;
+}
+.banner-two h2,.banner-two p {color: #fff; width: 60%;margin: 0 auto;font-weight: 500;}
+.banner-two p {padding-top: 16px;}
+.banner-two button {
+    margin: 30px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background: #ffffff;
+    outline: none !important;
+    border: none;
+    border-radius: 5px;
+}
+.image-wave {
+    width: 100%;
+    max-width: 100%;
+}
+.image-wave {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.image-wave img{width: 100%;}
+@media (max-width: 768px) {
+    .image-wave {
+        bottom: -2px;
+    }
+}
+@media (min-width: 425px) {
+    .image-wave {
+        bottom: -5px;
+    }
+}
+@media (min-width: 320px) {
+    .image-wave {
+        bottom: -7px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 994px) {
+    .banner-two h2, .banner-two p {
+        width: 94%;
+    }
+}

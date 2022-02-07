@@ -1,0 +1,72 @@
+.blog {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+.blog__title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.blog__subtitle {
+    width: 70%;
+    margin: 0 auto 16px auto;
+    padding-top: 24px;
+    color: #95a0ab;
+    font-size: 14.4px;
+    line-height: 24px;
+}
+.blog-box {
+    margin-top: 24px;
+}
+.blog__card img {
+    width: 100%;
+    max-width: 100%;
+}
+.blog__card .blog-card-job-title {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #95a0ab;
+}
+.blog__card .blog-title:hover {
+    color: #fb3e3e;
+}
+.blog__card h4 {
+    margin: 16px 0 8px 0;
+}
+.blog-title {
+    text-decoration: none;
+    color: #272a33;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.blog-description{
+    color: #95a0ab;
+    font-size: 14.4px;
+    line-height: 24px;
+}
+.read-btn {
+    color: #fb3e3e;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.read-btn:hover {
+    color: #272a33;
+}
+svg.svg-inline--fa.fa-arrow-right.fa-w-14 {
+    font-size: 12px;
+}
+
+@media (min-width: 200px) and (max-width: 994px) {
+    .blog__subtitle {
+        width: 94%;
+    }
+}

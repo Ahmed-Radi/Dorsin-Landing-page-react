@@ -1,0 +1,79 @@
+.footer {
+    padding: 50px 0;
+    background-color: #272a33;
+}
+.footer h4 {
+    color: #fff;
+}
+.footer .footer-list li a {
+    color: #98a0aa;
+    padding-top: 8px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    outline: none;
+}
+.footer p {
+    color: #98a0aa;
+}
+.footer__subscribe {
+    border-radius: 0.25rem;
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer__subscribe input {
+    background-color: #2e313a;
+    color: #ffff;
+    border: none;
+    outline: none;
+    padding: 0.375rem 0.75rem;
+    width: 90%;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.footer__subscribe-icon{
+    background-color: #2e313a;
+    font-size: 20px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    color: #acacac;
+}
+
+/** under footer **/
+
+.under-footer {
+    padding: 15px 0;
+    background-color: #2e313a;
+}
+.copy-right {
+    color: #95a0ab;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.payment-method {
+    display: flex;
+    justify-content: flex-end;
+}
+.payment-method > span div {
+    display: inline-block;
+}
+.payment-method > span div svg {
+    height: 36px;
+    width: 36px;
+}
+.payment-method > span .paypal svg {
+    height: 21px;
+    margin-top: 7px;
+    border-radius: 1px;
+    background-color: #fff;
+}

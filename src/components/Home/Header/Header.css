@@ -1,0 +1,95 @@
+header {
+    background: url('../../../assets/bg-home.jpg') center no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+header .header-overlay {
+    background: -webkit-gradient(linear, left top, right top, from(#522da8e6), to(#711e72e6));
+    background: linear-gradient(to right, #522da8e6, #711e72e6);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 25px 0;
+}
+header .header-overlay .row {
+    margin: 60px 0;
+}
+header h1 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 64px;
+    letter-spacing: 1px;
+    margin: 35px 0;
+    /* font-weight: 600; */
+}
+header p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 30px;
+    margin: 35px auto;
+    max-width: 600px;
+}
+header form {
+    width: 50%;
+    border-radius: 30px;
+    margin: 25px auto;
+    padding: 4px 2px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+header form input {
+    height: 47px;
+    width: calc(100% - 27%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #4c5667;
+}
+header form input:focus {outline: 0;}
+header form button {
+    width: calc(100% - 74%);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background: #FB3E3E;
+    text-transform: uppercase;
+}
+header form button:hover {margin-bottom: -5px;}
+@media (min-width: 0) and (max-width: 448px) {
+    header form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: transparent;
+    }
+    header form input {
+        width: 100%;
+        margin-bottom: 5px;
+        background-color: #fff;
+    }
+}
+@media (max-width: 992px) {
+    header form {
+        /* width: 50%; */
+        display: flex;
+    }
+    header form button {
+        width: auto;
+        flex: 1;
+    }
+    header form .btn-submit {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+/* @media (min-width: 200px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 32px;
+    }
+} */

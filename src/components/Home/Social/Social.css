@@ -1,0 +1,43 @@
+.social {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+.center-item {
+    display: flex;
+    align-items: center;
+    /* margin: 24px 0 16px 0; */
+}
+.social-icon {
+    margin-right: .5rem;
+}
+
+.info-contact {
+    /* margin-top: 24px; */
+}
+.contact-title {
+    margin: 0;
+    padding: 12px 0;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex; /*To center text with icon*/
+    align-items: center;
+}
+.contact-title a {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.contact-title span {
+    margin-right: 10px;
+}
+.contact-link {
+    font-size: 15px;
+}
+
+@media (max-width: 991px) and (min-width: 200px) {
+    .info-contact p {
+        margin-top: 24px;
+    }
+}
